@@ -1,10 +1,11 @@
-[project]
+[tool.poetry]
 name = "pythonproj"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "yuvalbc",email = "yuval.benchaim@gmail.com"}
-]
+authors = ["yuvalbc <yuval.benchaim@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
 requires-python = "^3.14"
 dependencies = [
     "streamlit (>=1.62.0,<2.0.0)"
